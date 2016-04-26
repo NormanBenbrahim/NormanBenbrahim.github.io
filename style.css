@@ -2,11 +2,7 @@ body, html {
 	width: 100%;
 	height: 100%;
 }
-
-/* Padding for the navbar and general light gray background all around*/
-body {
-	background: #d9d9d9;
-}		
+	
 
 /* Background image for first page*/
 .first-page {
@@ -17,7 +13,7 @@ body {
 
 /* Background image for second page*/
 .second-page {
-	background: url('https://wallpaperscraft.com/image/wooden_colorful_boards_background_band_50705_1680x1050.jpg') no-repeat center center fixed;
+	background: url('https://wallpaperscraft.com/image/paper_clips_string_wood_brown_background_80064_1680x1050.jpg0') no-repeat center center fixed;
 	background-size: cover;
 	padding-bottom: 50px;
 	padding-top: 200px;
@@ -26,7 +22,7 @@ body {
 
 /* Background image for third page*/
 .third-page {
-	background: url('https://wallpaperscraft.com/image/paper_clips_string_wood_brown_background_80064_1680x1050.jpg0') no-repeat center center fixed;
+	background: url('https://wallpaperscraft.com/image/apple_macbook_concept_design_table_cup_disk_74335_1680x1050.jpg') no-repeat center center fixed;
 	background-size: cover;
 	padding-bottom: 50px;
 	padding-top: 200px;
@@ -35,7 +31,7 @@ body {
 
 /* Background image for fourth page */
 .fourth-page {
-	background: url('https://wallpaperscraft.com/image/apple_macbook_concept_design_table_cup_disk_74335_1680x1050.jpg') no-repeat center center fixed;
+	background: url('http://cdn.allwallpaper.in/wallpapers/1680x1050/6174/fresh-cup-of-coffee-1680x1050-wallpaper.jpg') no-repeat center center fixed;
 	background-size: cover;
 	padding-bottom: 50px;
 	padding-top: 200px;
