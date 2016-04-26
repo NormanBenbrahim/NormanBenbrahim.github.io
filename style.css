@@ -101,9 +101,9 @@ body, html {
 
 /* General round white border on element*/
 .white-border {
-	border: 2px solid white;
+	border: 2px solid #ffb31a;
 	border-radius: 4px;
-	box-shadow: 2px 2px 3px;
+	box-shadow: 3px 2px 3px;
 }
 
 /* Picture of me and loki :) */
@@ -131,8 +131,8 @@ body, html {
 #awesomeness-portfolio {
 	color: #b3b300;
 	font-family: Kanit, Verdana;
-	font-size: 60px;
-
+	font-size: 55px;
+	text-shadow: 2px 2px 1px black;
 }
 
 .portfolio-box {
