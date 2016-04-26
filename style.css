@@ -5,7 +5,7 @@ body, html {
 
 /* Background image for second page*/
 .second-page {
-	background: url('images/wood_brown1680x1050.jpg') no-repeat center center fixed;
+	background: url('http://downloads.open4group.com/images/media_quadrados-azuis-blue-69dfe.jpg') no-repeat center center fixed;
 	background-size: cover;
 	padding-bottom: 50px;
 	padding-top: 80px;
@@ -85,7 +85,7 @@ body, html {
 
  /* For the self taught portion of the text */
 .self-taught {
-	color: DarkGrey;
+	color: #ffb31a;
 	font-weight: bold;
 }
 
@@ -93,7 +93,7 @@ body, html {
 
 /* General round white border on element*/
 .white-border {
-	border: 2px solid #ffb31a;
+	border: 2px solid white;
 	border-radius: 4px;
 	box-shadow: 3px 2px 3px;
 }
