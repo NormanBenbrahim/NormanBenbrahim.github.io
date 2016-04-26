@@ -14,7 +14,7 @@ body, html {
 
 /* Background image for third page*/
 .third-page {
-	background: url('https://wallpaperscraft.com/image/apple_macbook_concept_design_table_cup_disk_74335_1680x1050.jpg') no-repeat center center fixed;
+	background: url('images/apple_macbook1680x1050.jpg') no-repeat center center fixed;
 	background-size: cover;
 	padding-bottom: 50px;
 	padding-top: 200px;
@@ -23,7 +23,7 @@ body, html {
 
 /* Background image for fourth page */
 .fourth-page {
-	background: url('http://cdn.allwallpaper.in/wallpapers/1680x1050/6174/fresh-cup-of-coffee-1680x1050-wallpaper.jpg') no-repeat center center fixed;
+	background: url('images/coffee1680x1050.jpg') no-repeat center center fixed;
 	background-size: cover;
 	padding-bottom: 50px;
 	padding-top: 200px;
