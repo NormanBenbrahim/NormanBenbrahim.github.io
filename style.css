@@ -17,7 +17,7 @@ body, html {
 	background: url('images/apple_macbook1680x1050.jpg') no-repeat center center fixed;
 	background-size: cover;
 	padding-bottom: 50px;
-	padding-top: 200px;
+	padding-top: 50px;
 	height: 1050px;
 }
 
@@ -127,14 +127,13 @@ body, html {
 	text-shadow: 2px 2px 1px black;
 }
 
-.portfolio-box {
-	color: #b3b300;
+.iconbox {
+	border: 1px solid black;
+	margin-top: 15px;
+	margin-bottom: 0px;
 }
 
-.portfolio-box:hover {
-	box-shadow: 4px 4px 3px black;
-	transition: 0.2s;
-	background-color: DarkGray;
-	color: black;
-	font-weight: bold;
+.iconbox:hover {
+	opacity: 0.5;
+	transition: 0.4s;
 }
