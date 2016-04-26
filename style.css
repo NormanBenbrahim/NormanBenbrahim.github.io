@@ -118,6 +118,7 @@ body, html {
 /* Hover event on social media buttons */
 .btn {
 	border-radius: 100%;
+	margin-right: 10px;
 	transform: scale(1.3);
 }
 .btn:hover {
