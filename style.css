@@ -1,0 +1,158 @@
+body, html {
+	width: 100%;
+	height: 100%;
+}
+
+/* Padding for the navbar and general light gray background all around*/
+body { 
+	padding-top: 50px;
+	background: #d9d9d9;
+}		
+
+/* Background image for first page*/
+.first-page {
+	background: url('https://wallpaperscraft.com/image/boards_stripes_background_wooden_texture_50670_1680x1050.jpg') no-repeat center center fixed;
+	background-size: cover;
+	padding-bottom: 50px;
+	height: 1000px;
+}
+
+/* Background image for second page*/
+.second-page {
+	background: url('https://wallpaperscraft.com/image/wooden_colorful_boards_background_band_50705_1680x1050.jpg') no-repeat center center fixed;
+	background-size: cover;
+	padding-bottom: 50px;
+	padding-top: 200px;
+	height: 1050px;
+}
+
+/* Background image for third page*/
+.third-page {
+	background: url('https://wallpaperscraft.com/image/paper_clips_string_wood_brown_background_80064_1680x1050.jpg0') no-repeat center center fixed;
+	background-size: cover;
+	padding-bottom: 50px;
+	padding-top: 200px;
+	height: 1050px;
+}
+
+/* Background image for fourth page */
+.fourth-page {
+	background: url('https://wallpaperscraft.com/image/apple_macbook_concept_design_table_cup_disk_74335_1680x1050.jpg') no-repeat center center fixed;
+	background-size: cover;
+	padding-bottom: 50px;
+	padding-top: 200px;
+	height: 1050px;
+}
+
+#main-navbar {
+	font-family: Kanit, Verdana;
+	background-color: #595959;
+	opacity: 0.88;
+}
+
+/* Shadow for social media buttons*/
+.media-shadow {
+	box-shadow: 3px 3px 7px black;
+	text-shadow: 0.5px 0.5px 1px DarkGray;
+}
+
+/* Navbar brand name*/
+#my-name {
+	color: black;
+	text-shadow: 2px 2px 4px #e6e6ff;
+	border-top: 2px solid black;
+	border-bottom: 3px solid black;
+}
+
+/* For the navigation bar buttons*/
+.li-nav-name {
+	font-size: 18px;
+}
+
+
+/* Remove the ugly gray background from the jumbotron */
+.jumbotron {
+	background-color: transparent;
+	font-family: Kanit, Verdana;
+	color: black;
+}
+
+/* For hover events in interact.js */
+.hover-over-me {
+	background-color: #06937e;
+	border: 1px solid black;
+	box-shadow: 2px 2px 5px black;
+}
+
+/* To add space on top of the jumbotron */
+.jumbo-mar {
+	margin-top: 60px;
+}
+
+/* To add space between social media buttons and a border*/
+.mar {
+    margin-right: 10px;
+    margin-bottom: 20px;
+    border: 1px solid black;
+  }
+
+
+ /* For the self taught portion of the text */
+.self-taught {
+	color: DarkGrey;
+	font-weight: bold;
+}
+
+
+
+/* General round white border on element*/
+.white-border {
+	border: 2px solid white;
+	border-radius: 4px;
+	box-shadow: 2px 2px 3px;
+}
+
+/* Picture of me and loki :) */
+.me-n-loki {
+	height: 230px;
+	width: 230px;
+	border: 2px solid #fcf5eb;
+	border-radius: 45%;
+	box-shadow: 2px 2px 3px;
+}
+
+/* Hover event on social media buttons */
+.btn:hover {
+	color: #fff;
+  border: 2px outset rgba(0, 0, 0, 0.9);
+  background: rgba(0,0,0, 0.9);
+  transform:scale(1.08);
+  transition: 0.2s;
+  text-shadow: 1px 1px 1px rgba(0,0,0, 20);
+  box-shadow: 3px 3px 3px rgba(0,0,0,0.5);
+  letter-spacing: 2px;
+}
+
+
+#awesomeness-portfolio {
+	color: #b3b300;
+	font-family: Kanit, Verdana;
+	font-size: 60px;
+
+}
+
+.portfolio-box {
+	border: 2px solid black;
+	color: #b3b300;
+	padding: 5px 5px 5px 10px;
+	margin: 10px 0px 0px 0px;
+}
+
+.portfolio-box:hover {
+	box-shadow: 4px 4px 3px black;
+	transition: 0.2s;
+	background-color: DarkGray;
+	color: black;
+	font-weight: bold;
+}
+
