@@ -8,7 +8,7 @@ body, html {
 	background: url('images/wood_brown1680x1050.jpg') no-repeat center center fixed;
 	background-size: cover;
 	padding-bottom: 50px;
-	padding-top: 200px;
+	padding-top: 80px;
 	height: 1050px;
 }
 
@@ -107,16 +107,26 @@ body, html {
 	box-shadow: 2px 2px 3px;
 }
 
+.me-n-loki:hover {
+	-webkit-filter: brightness(1.2);
+	-moz-filter: brightness(1.2);
+	-o-filter: brightness(1.2);
+	-ms-filter: brightness(1.2);
+	transition: 0.3s;	
+}
+
 /* Hover event on social media buttons */
+.btn {
+	border-radius: 100%;
+	transform: scale(1.3);
+}
 .btn:hover {
 	color: #fff;
-  border: 2px outset rgba(0, 0, 0, 0.9);
-  background: rgba(0,0,0, 0.9);
-  transform:scale(1.08);
-  transition: 0.2s;
-  text-shadow: 1px 1px 1px rgba(0,0,0, 20);
-  box-shadow: 3px 3px 3px rgba(0,0,0,0.5);
-  letter-spacing: 2px;
+	border: 1px outset rgba(0, 0, 0, 0.9);
+	background: #b3b300;
+	transition: 0.3s;
+	text-shadow: 1px 1px 1px rgba(0,0,0, 20);
+	box-shadow: 3px 3px 3px rgba(0,0,0,0.5);
 }
 
 
@@ -128,12 +138,27 @@ body, html {
 }
 
 .iconbox {
-	border: 1px solid black;
-	margin-top: 15px;
+	border: 2px solid black;
+	margin-top: 10px;
 	margin-bottom: 0px;
+	border-radius: 10px 10px 10px 10px / 25px 25px 25px 25px;
 }
 
 .iconbox:hover {
-	opacity: 0.5;
 	transition: 0.4s;
+	box-shadow: 5px 3px 2px;
+	background-color: yellow;
+	-webkit-filter: blur(5px) brightness(1.2);
+	-moz-filter: blur(5px) brightness(1.2);
+	-o-filter: blur(5px) brightness(1.2);
+	-ms-filter: blur(5px) brightness(1.2);
+}
+
+.projtitle {
+	text-decoration: none;
+	color: black;
+	font-size: 20px;
+	font-family: Kanit, Verdana;
+	color: #b3b300;
+	text-shadow: 2px 2px 1px black;
 }
