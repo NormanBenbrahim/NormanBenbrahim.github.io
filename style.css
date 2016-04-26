@@ -128,10 +128,7 @@ body, html {
 }
 
 .portfolio-box {
-	border: 2px solid black;
 	color: #b3b300;
-	padding: 5px 5px 5px 10px;
-	margin: 10px 0px 0px 0px;
 }
 
 .portfolio-box:hover {
@@ -141,4 +138,3 @@ body, html {
 	color: black;
 	font-weight: bold;
 }
-
