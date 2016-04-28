@@ -96,7 +96,7 @@ body, html {
 /* Picture of me and loki :) */
 .me-n-loki {
 	height: 230px;
-	width: 150px;
+	max-width: 180px;
 	border: 2px solid #fcf5eb;
 	border-radius: 45%;
 	box-shadow: 2px 2px 3px;
