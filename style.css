@@ -5,7 +5,7 @@ body, html {
 
 /* Background image for second page*/
 .second-page {
-	background: url('images/blue1680x1050.jpg') no-repeat center center fixed;
+	background: url('images/coffee1680x1050.jpg') no-repeat center center fixed;
 	background-size: cover;
 	padding-bottom: 50px;
 	padding-top: 80px;
